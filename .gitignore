@@ -1,0 +1,63 @@
+# ================================
+# NEXORA AD LAB - GITIGNORE
+# ================================
+
+# Virtual Machines
+VMs/
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.vmem
+*.vmss
+*.nvram
+*.lck
+
+# ISO / Installation Media
+ISOs/
+*.iso
+
+# VMware
+*.vmx.lck/
+*.scoreboard
+*.log
+
+# Backups / Snapshots
+BACKUPS/
+*.bak
+*.backup
+
+# Credentials / Secrets
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+credentials.*
+secrets.*
+*password*
+*passwd*
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
